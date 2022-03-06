@@ -1,0 +1,13 @@
+# Default values for flusso.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+sub: a86e70df-a996-4210-b57a-60b919dd7a22
+resources:
+  requests:
+    cpu: 250 # m
+    memory: 256 #Mi
+    storage: 0 #Gi
+  limits:
+    cpu: 250
+    memory: 256
